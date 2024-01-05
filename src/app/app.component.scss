@@ -1,0 +1,21 @@
+.template-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    .sidenav-container {
+        width: 20vw;
+        padding: 15px;
+    }
+
+    .content-container {
+        width: 80vw;
+        padding: 20px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}

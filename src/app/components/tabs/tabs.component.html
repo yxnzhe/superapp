@@ -1,0 +1,12 @@
+<main>
+    <div class="content">
+        <div class="tab" *ngFor="let tab of tabs" (click)="redirectTo(tab.url)">
+            <div class="tab-icon">
+                <mat-icon aria-hidden="false" aria-label="Example home icon" [fontIcon]="tab.icon"></mat-icon>
+            </div>
+            <div class="tab-name">
+                <p>{{ tab.name }}</p>
+            </div>
+        </div> 
+    </div>
+</main>

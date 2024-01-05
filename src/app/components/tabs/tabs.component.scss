@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #eee;
+    }
+}
+
+.tab-icon {
+    margin-right: 15px;
+    font-size: medium;
+}
+
+.tab-name {
+    font-size: 1.25em;
+}
